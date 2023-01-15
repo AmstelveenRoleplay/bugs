@@ -48,11 +48,19 @@ body:
     validations:
       required: false
   - type: input
-    id: permid
+    id: steam
     attributes:
       label: Je steam naam
       description: Je steam account naam
       placeholder: "Sweet_Gasoline"
+    validations:
+      required: true
+  - type: input
+    id: discord
+    attributes:
+      label: Je discord naam
+      description: Je discord naam + #
+      placeholder: "Daan#9222"
     validations:
       required: true
       
