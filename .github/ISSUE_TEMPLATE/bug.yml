@@ -1,0 +1,62 @@
+name: Bug Report
+description: Bug report indienen
+title: "[Bug]: "
+labels: [bug, probleem]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dankjewel voor het invullen van dit bug report formulier!
+  - type: checkboxes
+    attributes:
+      label: Is er een bestaand probleem voor dit?
+      description: AUB Zoek eerst of dit probleem al eens gemeld is, misschien is het dan al opgelost!.
+      options:
+      - label: Ik heb de bestaande problemen doorzocht
+        required: true
+  - type: textarea
+    id: desc
+    attributes:
+      label: Beschrijving
+      description: Beschrijf het probleem dat je ervaart.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Wat is je verwachting van het development team
+      description: Beschrijf het probleem dat je ervaart.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Stappen om de bug te reproduceren
+      description: Wat moet je doen om deze bug te krijgen?.
+      placeholder: |
+          1. Doe dit commando...
+          2. Druk dan deze knop...
+          3. Ga dan springen...
+    validations:
+      required: true
+  - type: input
+    id: texture
+    attributes:
+      label: Graphic packs? (Als dat zo is geef het dan aan)
+      description: Gebruik je een graphics pack? (bijv NVE)
+      placeholder: NVE
+    validations:
+      required: false
+  - type: input
+    id: permid
+    attributes:
+      label: Je steam naam
+      description: Je steam account naam
+      placeholder: "Sweet_Gasoline"
+    validations:
+      required: true
+      
+    
+    
+      
+      
